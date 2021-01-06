@@ -74,6 +74,7 @@ footer{
 
 #imagem {
     border-radius: 300px;
+    max-width: 85%;
 }
 
 #foto2 {
