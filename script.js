@@ -28,7 +28,7 @@ function carregar() {
         if (hora <= 5 || hora >= 19) {
             //esta escuro
             img.src = "noite.png"
-            document.body.style.background = "#051834"
+            //document.body.style.background = "#051834"
             msg.innerHTML = `agora é ${hora} horas, ${min} minutos e ${sec} segundos.`
     }   else if (hora >= 6 && hora < 9) {
             //bom dia
