@@ -29,27 +29,27 @@ function carregar() {
             //esta escuro
             //img.src = img3
             document.body.style.background = 'url(https://source.unsplash.com/1600x1800/?nature,water)'
-            msg.innerHTML = `agora é ${hora} horas, ${min} minutos!`
+            msg.innerHTML = `agora é ${hora}Horas e ${min} Minutos!`
     }   else if (hora >= 6 && hora < 9) {
             //bom dia
             //img.src = "manha.png"
             document.body.style.background = 'url(https://source.unsplash.com/1600x1800/?nature,water)'
-            msg.innerHTML = `agora é ${hora} horas, ${min} minutos!`
+            msg.innerHTML = `agora é ${hora}Horas e ${min} Minutos!`
     }   else if (hora >= 9 && hora < 12) {
             //a manha esta acabando
             //img.src = "finalmanha.png"
             document.body.style.background = 'url(https://source.unsplash.com/1600x1800/?nature,water)'
-            msg.innerHTML = `agora é ${hora} horas, ${min} minutos!`
+            msg.innerHTML = `agora é ${hora}Horas e ${min} Minutos!`
     }   else if (hora >= 12 && hora <= 16) {
             //boa tarde
             //img.src = "Imagem/tarde.png"
             document.body.style.background = 'url(https://source.unsplash.com/1600x1800/?nature,water)'
-            msg.innerHTML = `agora é ${hora} horas, ${min} minutos!`
+            msg.innerHTML = `agora é ${hora}Horas e ${min} Minutos!`
     }   else {
             //esta escurecendo
             //img.src = "Imagem/finaltarde.png"
             document.body.style.background = 'url(https://source.unsplash.com/1600x1800/?nature,water)'
-            msg.innerHTML = `agora é ${hora} horas, ${min} minutos!`
+            msg.innerHTML = `agora é ${hora}Horas e ${min} Minutos!`
 
     }
 
