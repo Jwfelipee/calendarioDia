@@ -60,6 +60,7 @@ switch (mes) {
                 mes = "Janeiro"
                 msg2.innerHTML = `Do dia ${dia} do mês de ${mes} do ano de ${ano}`
                 calen.src = "Imagem/calendario1.png"
+                img2.style.maxWidth = "85%"
                 switch (dia) {
                     case 1:
                         txt.innerHTML = `O texto do dia é: Vão e façam discípulos de pessoas de todas as nações. — Mat. 28:19.`
