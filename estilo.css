@@ -37,14 +37,16 @@ p {
 }
 
 section {
-    background: white;
+    background: rgba(255, 255, 255, 0.411);
     border-radius: 5px;
     padding: 15px;
-    width: 500px;
-    margin: auto;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(255, 4, 4);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
     text-align: center;
+
 
 }
 
@@ -59,5 +61,12 @@ footer{
 
 #imagem {
     border-radius: 300px;
+}
+
+#foto2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block; 
 }
 
