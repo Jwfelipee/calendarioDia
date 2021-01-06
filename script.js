@@ -32,26 +32,28 @@ function carregar() {
             msg.innerHTML = `agora é ${hora} horas, ${min} minutos e ${sec} segundos.`
     }   else if (hora >= 6 && hora < 9) {
             //bom dia
-            img.src = "manha.png"
-            document.body.style.background = "#c0a2da"
+            //img.src = "manha.png"
+            document.body.style.background = 'url(https://source.unsplash.com/1600x1200/?nature,water)'
             msg.innerHTML = `agora é ${hora} horas, ${min} minutos e ${sec} segundos.`
     }   else if (hora >= 9 && hora < 12) {
             //a manha esta acabando
-            img.src = "finalmanha.png"
-            document.body.style.background = "#faf3ae"
+            //img.src = "finalmanha.png"
+            document.body.style.background = 'url(https://source.unsplash.com/1600x1200/?nature,water)'
             msg.innerHTML = `agora é ${hora} horas, ${min} minutos e ${sec} segundos.`
     }   else if (hora >= 12 && hora <= 16) {
             //boa tarde
-            img.src = "Imagem/tarde.png"
-            document.body.style.background = "#fda791"
+            //img.src = "Imagem/tarde.png"
+            document.body.style.background = 'url(https://source.unsplash.com/1600x1200/?nature,water)'
             msg.innerHTML = `agora é ${hora} horas, ${min} minutos e ${sec} segundos.`
     }   else {
             //esta escurecendo
-            img.src = "Imagem/finaltarde.png"
-            document.body.style.background = "#cc5861"
+            //img.src = "Imagem/finaltarde.png"
+            document.body.style.background = 'url(https://source.unsplash.com/1600x1200/?nature,water)'
             msg.innerHTML = `agora é ${hora} horas, ${min} minutos e ${sec} segundos.`
 
     }
+
+
 
 switch (mes) {
             case 0:
@@ -1274,100 +1276,3 @@ switch (mes) {
                 alert("[ERRO 000] Ação invalida, verefique e tente novamente!")
         }
 }
-/* switch (dia) {
-                            case 1:
-                                txt.innerHTML = `O texto do dia é: Vão e façam discípulos de pessoas de todas as nações. — Mat. 28:19.`
-                                break
-                            case 2: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 3: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 4: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 5: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 6: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 7: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 8: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 9: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 10: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 11: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 12: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 13: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 14: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 15: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 16: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 17: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 18: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 19: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 20: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 21: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 22: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 23: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 24: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 25: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 26: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 27: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 28: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 29: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 30: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            case 31: 
-                                txt.innerHTML = "O texto do dia é:"
-                                break
-                            default :
-                            alert("[ERRO 001] Tente novamente!")
-                    }*/
